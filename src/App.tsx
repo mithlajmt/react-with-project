@@ -1,6 +1,8 @@
 // App.tsx
 import Hello from "./Hello";
+import Map from "./Map";
 import MattaButton from "./MattaButton";
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <div>
         <MattaButton />
         <Hello />
+        <Map></Map>
       </div>
     </div>
   );
